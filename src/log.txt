@@ -1,0 +1,407 @@
+commit dba501351e6693c68a80632d7be78e0d9b5dc1f4
+Author: Nahjee <nts5263@gmail.com>
+Date:   Tue May 10 22:02:41 2016 -0400
+
+    safe config finished
+
+commit d187f386de52983883c0e226716d29bae525196b
+Author: Nahjee <nts5263@gmail.com>
+Date:   Tue May 10 16:45:50 2016 -0400
+
+    safe config finished
+
+commit a292c83add6fc4eea3d9a7fd211d9e2b9bbd6d2c
+Merge: f7cf2e3 e85c6a0
+Author: Nahjee <nts5263@gmail.com>
+Date:   Tue May 10 16:38:20 2016 -0400
+
+    Merge remote-tracking branch 'origin/master'
+    
+    # Conflicts:
+    #	src/gui/LasersGUI.java
+
+commit f7cf2e3c93b2835f1debdcc04fcec9f540ecaf7a
+Author: Nahjee <nts5263@gmail.com>
+Date:   Tue May 10 16:36:21 2016 -0400
+
+    this has everything in terms of laser config except the validate, because your validate doesn't reference a table location in terms of a nested array you have som wierd create an x a nd y array thing
+
+commit e85c6a073e60aa04c8907eded68ee7cda61ef902
+Author: Calvin Wu <cxw7054@rit.edu>
+Date:   Tue May 10 15:54:15 2016 -0400
+
+    Fixed some analysis errors
+
+commit 6e9b1d8a7d37e444c2b3e6ffdc1a715a2b8842e1
+Author: Calvin Wu <cxw7054@rit.edu>
+Date:   Tue May 10 15:43:30 2016 -0400
+
+    Added documentation
+
+commit 4b3186f415f8ea38b35cc33638f6a1de0f0c3119
+Author: Calvin Wu <cxw7054@rit.edu>
+Date:   Tue May 10 15:26:48 2016 -0400
+
+    Added names
+
+commit f277445df3c976720133c662fbc6ea923df4b307
+Author: Calvin Wu <cxw7054@rit.edu>
+Date:   Tue May 10 15:20:07 2016 -0400
+
+    Window resizes after load
+
+commit c962718d9b58d98ea475e8e6683faee141743cd7
+Author: Calvin Wu <cxw7054@rit.edu>
+Date:   Tue May 10 15:01:53 2016 -0400
+
+    Load works!
+
+commit 3c34894ef2d9fb1c7d0bf9186263a3474d36e1bd
+Author: Calvin Wu <cxw7054@rit.edu>
+Date:   Tue May 10 02:33:57 2016 -0400
+
+    Added load
+
+commit f2b855f5749b53bceef719dd116ca1ee17eef978
+Author: Calvin Wu <cxw7054@rit.edu>
+Date:   Tue May 10 02:03:24 2016 -0400
+
+    Load
+
+commit 90f92c0c97259fcb117acd5e5a498b66dd5b3a86
+Author: Nahjee <nts5263@gmail.com>
+Date:   Mon May 9 20:14:17 2016 -0400
+
+    so this has loader ironed out
+
+commit aa35c6a9b8d89a53e28f3204338d8dd161ba1fd6
+Author: Calvin Wu <cxw7054@rit.edu>
+Date:   Sun May 8 19:55:08 2016 -0400
+
+    Added images
+
+commit fe1e67a6f134dec074645e5d058f68c9cd388329
+Author: Calvin Wu <cxw7054@rit.edu>
+Date:   Sun May 8 15:19:34 2016 -0400
+
+    PTUI and GUI finished
+
+commit 8cdf44be16a1c34b85539cad0481fd4e28e5c46d
+Author: Calvin Wu <cxw7054@rit.edu>
+Date:   Sun May 8 00:54:44 2016 -0400
+
+    Finished PTUI
+
+commit a64a74cfcdd2e6620745fb62bb5cd6062c47bd5f
+Author: Calvin Wu <cxw7054@rit.edu>
+Date:   Sun May 8 00:53:13 2016 -0400
+
+    Finished PTUI
+
+commit d950d35713dc1c84e5ffecbed7cbd03504d22e6d
+Author: Calvin Wu <cxw7054@rit.edu>
+Date:   Sat May 7 20:34:16 2016 -0400
+
+    Fixed output messages
+
+commit 42d51cfdeb42d87e918f4212b481a84c93573a33
+Author: Calvin Wu <cxw7054@rit.edu>
+Date:   Sat May 7 19:56:27 2016 -0400
+
+    Check completed
+
+commit 4db280a4454ec2b25d400f2fe3f22b04be4c717d
+Author: Calvin Wu <cxw7054@rit.edu>
+Date:   Sat May 7 02:48:23 2016 -0400
+
+    Impletmented GUI restart button and displaying status message
+
+commit ea9e459e6227c0bcd74e38c64308454d5b89bfbf
+Author: Calvin Wu <cxw7054@rit.edu>
+Date:   Sat May 7 02:23:54 2016 -0400
+
+    GUI add and remove implemented
+
+commit 807bad55bc3c99e09e6e38df9c31988f78d08d77
+Author: Calvin Wu <cxw7054@rit.edu>
+Date:   Sat May 7 01:11:30 2016 -0400
+
+    Added choose to Model
+    Got GUI up and running
+
+commit 4c5498b8fb0fbd3821e40bb46132e992c62b7622
+Author: Nahjee <nts5263@gmail.com>
+Date:   Fri May 6 22:35:27 2016 -0400
+
+    WE GUCCI foreal now
+
+commit 9db43928a0da137ce776fc2eff4217ec6c45c95f
+Author: Nahjee <nts5263@gmail.com>
+Date:   Fri May 6 22:23:51 2016 -0400
+
+    WE GUCCI foreal now
+
+commit cf06624f52be51b3dc342f277ac3d697bd3de96c
+Author: Calvin Wu <cxw7054@rit.edu>
+Date:   Fri Apr 15 16:11:21 2016 -0400
+
+    Return "Error adding/removing lasers at:" for out of bounds coordinates instead of "Incorrect Coordinates"
+
+commit b4411e09bfe9440724b8576191671abaa2018cd8
+Author: Calvin Wu <cxw7054@rit.edu>
+Date:   Fri Apr 15 15:39:48 2016 -0400
+
+    Print file commands to standard output
+
+commit d754a28b7ce6e83350abb0d6ea4f1a8df06d3525
+Author: Calvin Wu <cxw7054@rit.edu>
+Date:   Fri Apr 15 14:45:45 2016 -0400
+
+    Catch NumberFormatException for add and remove
+
+commit 71baa508925876b0d163965cc9c576bc843111a1
+Author: Calvin Wu <cxw7054@rit.edu>
+Date:   Fri Apr 15 14:26:16 2016 -0400
+
+    Display after verify
+
+commit ed2dbc93de9b175a6e41d392d705946bb4826df1
+Author: Calvin Wu <cxw7054@rit.edu>
+Date:   Fri Apr 15 14:18:47 2016 -0400
+
+    Finishing touches
+
+commit 73dfcf8baf1095f28f0636458d69af2e6b8c8592
+Author: Calvin Wu <cxw7054@rit.edu>
+Date:   Fri Apr 15 14:11:12 2016 -0400
+
+    Readded verify to main
+
+commit fe029d947e66befcfc40b4cd102e36ce81e09a45
+Author: Calvin Wu <cxw7054@rit.edu>
+Date:   Fri Apr 15 14:03:23 2016 -0400
+
+    Fixed laserHitsLaser and laserPillSetupisinvalid
+    Reverted LasersPTUI
+
+commit b8dafc2a19822b09f5980d033ec4f6b69d8220ee
+Author: Nahjee <nts5263@gmail.com>
+Date:   Fri Apr 15 11:29:11 2016 -0400
+
+    WE GUCCI foreal now
+
+commit 3d7dbfaf3026c538f89a5f21e0ae8cc288312333
+Author: Nahjee <nts5263@gmail.com>
+Date:   Fri Apr 15 11:25:01 2016 -0400
+
+    WE GUCCI foreal now
+
+commit 8284b90b6ca88163b3211615f34187a31d92f85a
+Author: Nahjee <nts5263@gmail.com>
+Date:   Fri Apr 15 10:10:34 2016 -0400
+
+    WE GUCCI
+
+commit 303862b5772baf6e2638089a0338de70f334b378
+Author: Nahjee <nts5263@gmail.com>
+Date:   Fri Apr 15 06:47:29 2016 -0400
+
+    almost done verify has empty spaces check functional in addition, i simplified main
+    
+    put= actions for add
+    take= actions for remove
+    verify=actions for verify
+    comands= actions for processing input
+
+commit 9d20caa6a371b1cca923bbf1fb770dc3cffb552f
+Author: Nahjee <nts5263@gmail.com>
+Date:   Fri Apr 15 06:32:06 2016 -0400
+
+    almost done verify has empty spaces check functional in addition, i simplified main
+    
+    put= actions for add
+    take= actions for remove
+    verify=actions for verify
+    comands= actions for processing input
+
+commit f9df705a51397def317353b9cf36b79fa373e776
+Author: Nahjee <nts5263@gmail.com>
+Date:   Fri Apr 15 05:27:08 2016 -0400
+
+    almost done
+
+commit df845e24f2e8f74e6bd65aee5d04930f5a06ea5e
+Author: Nahjee <nts5263@gmail.com>
+Date:   Fri Apr 15 05:24:45 2016 -0400
+
+    almost done
+
+commit 7d3892cb45e80ea1ab759458c86072cdf9075bc1
+Author: Nahjee <nts5263@gmail.com>
+Date:   Fri Apr 15 05:22:05 2016 -0400
+
+    almost done
+
+commit 527330303dd3bcc610b5ee4812aa95c86c2298e0
+Author: Nahjee <nts5263@gmail.com>
+Date:   Fri Apr 15 05:21:44 2016 -0400
+
+    almost done
+
+commit 1f856a71d9cac80300a9bd7d25ff61a210ce9e34
+Author: Calvin Wu <cxw7054@rit.edu>
+Date:   Thu Apr 14 22:57:56 2016 -0400
+
+    Displays usage statement if the number of arguments is incorrect
+
+commit 18e03027b1ff44ff82c75a79465ef0041d23c90d
+Author: Nahjee <nts5263@gmail.com>
+Date:   Thu Apr 14 22:32:08 2016 -0400
+
+    pt 1 finito, now with has empty helper method
+
+commit 1c09376cde2e7824bc9201e678baa752a5c7a9ff
+Author: Nahjee <nts5263@gmail.com>
+Date:   Thu Apr 14 21:16:37 2016 -0400
+
+    pt 1 finito, now with has empty helper method
+
+commit 00efceeeab2629565fd96f81eae83cb7f1ce4006
+Author: Calvin Wu <cxw7054@rit.edu>
+Date:   Thu Apr 14 19:31:52 2016 -0400
+
+    Revised add and remove
+
+commit 05604c06a38f3b03b8b338371de177903677d872
+Author: Calvin Wu <cxw7054@rit.edu>
+Date:   Thu Apr 14 17:48:02 2016 -0400
+
+    Catch out of bound coordinates error
+
+commit 133f037f090107501c2157f4474b12f1b5a54728
+Author: Calvin Wu <cxw7054@rit.edu>
+Date:   Thu Apr 14 17:23:29 2016 -0400
+
+    Made safe work with input files
+
+commit 3ec58479bcc8cad104c14232018d8d7501cb325c
+Author: Calvin Wu <cxw7054@rit.edu>
+Date:   Wed Apr 13 17:13:30 2016 -0400
+
+    Added another laser check function: hasPowerSource
+    Renamed the other one to doesLaserNotHitLaser
+
+commit efdb364a4319bf57a112d7c32c1c99a9b8048173
+Author: Calvin Wu <cxw7054@rit.edu>
+Date:   Wed Apr 13 16:57:41 2016 -0400
+
+    Fixed it so that after a laser is removed, unaffected lasers are readded to preserve laser beam function
+
+commit 160bd52057e2577c7c01b94c56a471718d70901e
+Author: cxw7054 <cxw7054@cs.rit.edu>
+Date:   Tue Apr 12 21:42:32 2016 -0400
+
+    Fixed add and remove
+
+commit 4fcc43fee4a0b71e1a821189b28a31301f0ebf6a
+Author: cxw7054 <cxw7054@cs.rit.edu>
+Date:   Tue Apr 12 20:50:17 2016 -0400
+
+    Added more if cases
+
+commit fe14f8f86962f34cf4603cf058ac561be383a0f7
+Author: cxw7054 <cxw7054@cs.rit.edu>
+Date:   Tue Apr 12 20:36:03 2016 -0400
+
+    Tweaked documentation
+
+commit b7b6a8ea05e7ad0c642c965e6e1f2b508e4c4970
+Author: cxw7054 <cxw7054@cs.rit.edu>
+Date:   Tue Apr 12 20:35:22 2016 -0400
+
+    Added documentation
+
+commit 830c53b6925bec820c91b9c516c2d22f47fadfb3
+Author: cxw7054 <cxw7054@cs.rit.edu>
+Date:   Tue Apr 12 19:52:15 2016 -0400
+
+    Added main function
+
+commit 8d58951ada70aceeaef7c3bb71aa17149d47bec1
+Author: cxw7054 <cxw7054@cs.rit.edu>
+Date:   Tue Apr 12 19:51:43 2016 -0400
+
+    Made revisions
+
+commit 0cb0c7a54cb9291ed74297ca3946dad0328db52a
+Author: cxw7054 <cxw7054@cs.rit.edu>
+Date:   Mon Apr 11 21:25:31 2016 -0400
+
+    Added documentation
+
+commit 69d28edd94e799828a7aa44c5dd4d9cf90f65df6
+Author: cxw7054 <cxw7054@cs.rit.edu>
+Date:   Mon Apr 11 21:19:09 2016 -0400
+
+    Added Helper Method
+
+commit 25684a19c01269dea2e6a367c215f8f6fd93995f
+Author: cxw7054 <cxw7054@cs.rit.edu>
+Date:   Mon Apr 11 21:17:36 2016 -0400
+
+    Added Helper Method
+
+commit c7b7a67d5f165607face4cce21e22580976d01d2
+Author: Nahjee <nts5263@gmail.com>
+Date:   Mon Apr 11 21:14:55 2016 -0400
+
+    pt 1 finito, now with deep copy
+
+commit 9b9355a0f65a7af64ffc6bb8d8ac87c9a688de58
+Author: Nahjee <nts5263@gmail.com>
+Date:   Mon Apr 11 21:04:36 2016 -0400
+
+    pt 1 finito
+
+commit 8decd1c3561f7bc6db60a10e086d8f225dc630e0
+Author: Nahjee <nts5263@gmail.com>
+Date:   Sun Apr 10 00:43:29 2016 -0400
+
+    finished initial scan in,and to string
+
+commit 43a7716ba8c62e9426484b802d2a7465a21e1228
+Author: cxw7054 <cxw7054@cs.rit.edu>
+Date:   Sat Apr 9 22:02:05 2016 -0400
+
+    Added some commands
+
+commit 0c1f269523c8294b427249e83c17c14efdbb5e40
+Merge: c29b6be 6db43fc
+Author: Nahjee <nts5263@gmail.com>
+Date:   Sat Apr 9 16:52:17 2016 -0400
+
+    Merge remote-tracking branch 'origin/master'
+
+commit c29b6be2f40a739b7ae0c40137a27a7fbc4f4a43
+Author: Nahjee <nts5263@gmail.com>
+Date:   Sat Apr 9 16:51:45 2016 -0400
+
+    Added a change
+
+commit 6db43fc197e9dc71eb61ed6934ed4454297caf07
+Author: cxw7054 <cxw7054@cs.rit.edu>
+Date:   Sat Apr 9 16:50:25 2016 -0400
+
+    Added Calvin's name and fixed main method
+
+commit f70dac3b986f289fefe5cf8300e48eb17df4d455
+Author: Nahjee <nts5263@gmail.com>
+Date:   Sat Apr 9 16:39:11 2016 -0400
+
+    Added gitignore
+
+commit a4b0fdd8e4bd114151d8cc04711f545049ae180d
+Author: Nahjee <nts5263@gmail.com>
+Date:   Sat Apr 9 16:36:10 2016 -0400
+
+    Initial commit - added my name to the code
